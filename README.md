@@ -25,9 +25,9 @@ Sprite coordinates:
 2_thumb,0,101,100,100
 ```
 
-Manifest: [main/index.json](https://raw.githubusercontent.com/pbinkley/iiif-thumbnail-sprites/main/index.json)
+Manifest: [main/index.json](https://pbinkley.github.io/iiif-thumbnail-sprites/main/index.json)
 
 View in 
-[Mirador](https://projectmirador.org/embed/?manifest=https://raw.githubusercontent.com/pbinkley/iiif-thumbnail-sprites/main/index.json)
+[Mirador](https://projectmirador.org/embed/?manifest=https://pbinkley.github.io/iiif-thumbnail-sprites/main/index.json)
 |
-[Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://projectmirador.org/embed/?manifest=https://raw.githubusercontent.com/pbinkley/iiif-thumbnail-sprites/main/index.json)
+[Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://pbinkley.github.io/iiif-thumbnail-sprites/main/index.json)
