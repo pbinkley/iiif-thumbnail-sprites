@@ -19,7 +19,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/_1-front/image00007.jpg",
+                "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/1-front/image00007.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "label": {
@@ -31,7 +31,7 @@
                 "height": 1941,
                 "service": [
                   {
-                    "@id": "https://pbinkley.github.io/iiif-thumbnail-sprites/_1-front/+tiles",
+                    "@id": "https://pbinkley.github.io/iiif-thumbnail-sprites/1-front/+tiles",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -85,7 +85,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/_2-back/image00008.jpg",
+                "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/2-back/image00008.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "label": {
@@ -97,7 +97,7 @@
                 "height": 1940,
                 "service": [
                   {
-                    "@id": "https://pbinkley.github.io/iiif-thumbnail-sprites/_2-back/+tiles",
+                    "@id": "https://pbinkley.github.io/iiif-thumbnail-sprites/2-back/+tiles",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -117,7 +117,7 @@
       "height": 1940,
       "thumbnail": [
         {
-          "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/_2-back/thumb.jpg",
+          "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/2-back/thumb.jpg",
           "type": "Image"
         }
       ]

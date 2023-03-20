@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://pbinkley.github.io/iiif-thumbnail-sprites/_1-front/+tiles",
+  "@id": "https://pbinkley.github.io/iiif-thumbnail-sprites/1-front/+tiles",
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
