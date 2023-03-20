@@ -5,3 +5,12 @@ The idea is to enable a iiif service to improve the speed of rendering of a gall
 
 Is this possible? I'm not clear enough yet on the capabilities of the fragment selector framework to be sure. I've set up a simple manifest for tinkering.
 
+## Setup
+
+- created prezi3 manifest and static IIIF resources with [biiif](https://github.com/IIIF-Commons/biiif) for two-image item
+	- tidied it up to validate (fixed language tags)
+- created spritesheet with [sstool from LeshyLabs](https://www.leshylabs.com/apps/sstool/)
+	- saved as spritesheet.jpg, and saved list as sprites.txt
+
+![Spritesheet](https://raw.githubusercontent.com/pbinkley/iiif-thumbnail-sprites/main/spritesheet.jpg)
+
