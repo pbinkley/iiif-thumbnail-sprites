@@ -3,23 +3,23 @@
     "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://www.wallandbinkley.com/meyer/index.json",
+  "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json",
   "type": "Manifest",
   "items": [
     {
-      "id": "https://www.wallandbinkley.com/meyer/index.json/canvas/0",
+      "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/0",
       "type": "Canvas",
       "items": [
         {
-          "id": "https://www.wallandbinkley.com/meyer/index.json/canvas/0/annotationpage/0",
+          "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/0/annotationpage/0",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://www.wallandbinkley.com/meyer/index.json/canvas/0/annotation/0",
+              "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/0/annotation/0",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://www.wallandbinkley.com/meyer/_1-front/image00007.jpg",
+                "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/_1-front/image00007.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "label": {
@@ -31,13 +31,13 @@
                 "height": 1941,
                 "service": [
                   {
-                    "@id": "https://www.wallandbinkley.com/meyer/_1-front/+tiles",
+                    "@id": "https://pbinkley.github.io/iiif-thumbnail-sprites/_1-front/+tiles",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
               },
-              "target": "https://www.wallandbinkley.com/meyer/index.json/canvas/0"
+              "target": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/0"
             }
           ]
         }
@@ -51,12 +51,12 @@
       "height": 1941,
       "thumbnail": [
         {
-          "id": "https://www.wallandbinkley.com/meyer/spritesheet.jpg",
+          "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/spritesheet.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "service": [
             {
-              "id": "https://www.wallandbinkley.com/meyer/spritesheet.jpg",
+              "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/spritesheet.jpg",
               "type": "ImageService2",
               "profile": "level0",
               "width": 100,
@@ -73,19 +73,19 @@
       ]
     },
     {
-      "id": "https://www.wallandbinkley.com/meyer/index.json/canvas/1",
+      "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/1",
       "type": "Canvas",
       "items": [
         {
-          "id": "https://www.wallandbinkley.com/meyer/index.json/canvas/1/annotationpage/0",
+          "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/1/annotationpage/0",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://www.wallandbinkley.com/meyer/index.json/canvas/1/annotation/0",
+              "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/1/annotation/0",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://www.wallandbinkley.com/meyer/_2-back/image00008.jpg",
+                "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/_2-back/image00008.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "label": {
@@ -97,13 +97,13 @@
                 "height": 1940,
                 "service": [
                   {
-                    "@id": "https://www.wallandbinkley.com/meyer/_2-back/+tiles",
+                    "@id": "https://pbinkley.github.io/iiif-thumbnail-sprites/_2-back/+tiles",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
               },
-              "target": "https://www.wallandbinkley.com/meyer/index.json/canvas/1"
+              "target": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/1"
             }
           ]
         }
@@ -117,7 +117,7 @@
       "height": 1940,
       "thumbnail": [
         {
-          "id": "https://www.wallandbinkley.com/meyer/_2-back/thumb.jpg",
+          "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/_2-back/thumb.jpg",
           "type": "Image"
         }
       ]

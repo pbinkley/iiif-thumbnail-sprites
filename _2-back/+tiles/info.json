@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://www.wallandbinkley.com/meyer/_2-back/+tiles",
+  "@id": "https://pbinkley.github.io/iiif-thumbnail-sprites/_2-back/+tiles",
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {

@@ -7,10 +7,27 @@ Is this possible? I'm not clear enough yet on the capabilities of the fragment s
 
 ## Setup
 
+<figure style="float: right">
+    <img src="https://raw.githubusercontent.com/pbinkley/iiif-thumbnail-sprites/main/spritesheet.jpg"
+         alt="Spritesheet with two thumbnail images">
+    <figcaption>Spritesheet with two thumbnail images</figcaption>
+</figure>
+
 - created prezi3 manifest and static IIIF resources with [biiif](https://github.com/IIIF-Commons/biiif) for two-image item
 	- tidied it up to validate (fixed language tags)
-- created spritesheet with [sstool from LeshyLabs](https://www.leshylabs.com/apps/sstool/)
+- created spritesheet with [sstool from Leshy Labs](https://www.leshylabs.com/apps/sstool/)
 	- saved as spritesheet.jpg, and saved list as sprites.txt
 
-![Spritesheet](https://raw.githubusercontent.com/pbinkley/iiif-thumbnail-sprites/main/spritesheet.jpg)
+Sprite coordinates:
 
+```
+1_thumb,0,0,100,100
+2_thumb,0,101,100,100
+```
+
+Manifest: [main/index.json](https://raw.githubusercontent.com/pbinkley/iiif-thumbnail-sprites/main/index.json)
+
+View in 
+[Mirador](https://projectmirador.org/embed/?manifest=https://raw.githubusercontent.com/pbinkley/iiif-thumbnail-sprites/main/index.json)
+|
+[Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://projectmirador.org/embed/?manifest=https://raw.githubusercontent.com/pbinkley/iiif-thumbnail-sprites/main/index.json)
