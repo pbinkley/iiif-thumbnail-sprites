@@ -1,25 +1,27 @@
+---
+---
 {
   "@context": [
     "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json",
+  "id": "{{site.url}}{{site.baseurl}}/index.json",
   "type": "Manifest",
   "items": [
     {
-      "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/0",
+      "id": "{{site.url}}{{site.baseurl}}/index.json/canvas/0",
       "type": "Canvas",
       "items": [
         {
-          "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/0/annotationpage/0",
+          "id": "{{site.url}}{{site.baseurl}}/index.json/canvas/0/annotationpage/0",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/0/annotation/0",
+              "id": "{{site.url}}{{site.baseurl}}/index.json/canvas/0/annotation/0",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/1-front/image00007.jpg",
+                "id": "{{site.url}}{{site.baseurl}}/1-front/image00007.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "label": {
@@ -31,13 +33,13 @@
                 "height": 1941,
                 "service": [
                   {
-                    "@id": "https://pbinkley.github.io/iiif-thumbnail-sprites/1-front/+tiles",
+                    "@id": "{{site.url}}{{site.baseurl}}/1-front/+tiles",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
               },
-              "target": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/0"
+              "target": "{{site.url}}{{site.baseurl}}/index.json/canvas/0"
             }
           ]
         }
@@ -51,12 +53,12 @@
       "height": 1941,
       "thumbnail": [
         {
-          "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/spritesheet.jpg",
+          "id": "{{site.url}}{{site.baseurl}}/spritesheet.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "service": [
             {
-              "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/spritesheet.jpg",
+              "id": "{{site.url}}{{site.baseurl}}/spritesheet.jpg",
               "type": "ImageService2",
               "profile": "level0",
               "width": 100,
@@ -73,19 +75,19 @@
       ]
     },
     {
-      "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/1",
+      "id": "{{site.url}}{{site.baseurl}}/index.json/canvas/1",
       "type": "Canvas",
       "items": [
         {
-          "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/1/annotationpage/0",
+          "id": "{{site.url}}{{site.baseurl}}/index.json/canvas/1/annotationpage/0",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/1/annotation/0",
+              "id": "{{site.url}}{{site.baseurl}}/index.json/canvas/1/annotation/0",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/2-back/image00008.jpg",
+                "id": "{{site.url}}{{site.baseurl}}/2-back/image00008.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "label": {
@@ -97,13 +99,13 @@
                 "height": 1940,
                 "service": [
                   {
-                    "@id": "https://pbinkley.github.io/iiif-thumbnail-sprites/2-back/+tiles",
+                    "@id": "{{site.url}}{{site.baseurl}}/2-back/+tiles",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
               },
-              "target": "https://pbinkley.github.io/iiif-thumbnail-sprites/index.json/canvas/1"
+              "target": "{{site.url}}{{site.baseurl}}/index.json/canvas/1"
             }
           ]
         }
@@ -117,7 +119,7 @@
       "height": 1940,
       "thumbnail": [
         {
-          "id": "https://pbinkley.github.io/iiif-thumbnail-sprites/2-back/thumb.jpg",
+          "id": "{{site.url}}{{site.baseurl}}/2-back/thumb.jpg",
           "type": "Image"
         }
       ]

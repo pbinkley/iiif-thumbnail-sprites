@@ -24,9 +24,6 @@ description: >-
   Experiment in using a spritesheet to convey thumnbail images for a IIIF manifesto
 baseurl: "/iiif-thumbnail-sprites" # the subpath of your site, e.g. /blog
 url: "https://pbinkley.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-mastodon: 
-  username: pbinkley
-  instance: code4lib.social
 github_username:  pbinkley
 
 # Build settings
@@ -53,3 +50,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+webrick:
+  headers:
+    "Access-Control-Allow-Origin": "*"
+
