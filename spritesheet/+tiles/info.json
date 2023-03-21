@@ -1,11 +1,11 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://pbinkley.github.io/iiif-thumbnail-sprites/spritesheet/+tiles",
+  "@id": "{{site.url}}{{site.baseurl}}/spritesheet/+tiles",
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
       "formats": [
-        "png"
+        "jpg"
       ],
       "qualities": [
         "default"
@@ -16,7 +16,9 @@
   "tiles": [
     {
       "scaleFactors": [
-        1
+        1,
+        2,
+        4
       ],
       "width": 256
     }
