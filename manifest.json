@@ -35,7 +35,7 @@
                   {
                     "@id": "{{site.url}}{{site.baseurl}}/1-front/+tiles",
                     "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "profile": "http://iiif.io/api/image/2/level0.json"
                   }
                 ]
               },
@@ -101,7 +101,7 @@
                   {
                     "@id": "{{site.url}}{{site.baseurl}}/2-back/+tiles",
                     "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "profile": "http://iiif.io/api/image/2/level0.json"
                   }
                 ]
               },
@@ -121,6 +121,58 @@
         {
           "id": "{{site.url}}{{site.baseurl}}/2-back/thumb.jpg",
           "type": "Image"
+        }
+      ]
+    },
+    {
+      "id": "{{site.url}}{{site.baseurl}}/index.json/canvas/2",
+      "type": "Canvas",
+      "items": [
+        {
+          "id": "{{site.url}}{{site.baseurl}}/index.json/canvas/2/annotationpage/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{site.url}}{{site.baseurl}}/index.json/canvas/2/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "{{site.url}}{{site.baseurl}}/spritesheet/spritesheet.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "label": {
+                  "en": [
+                    "Spritesheet"
+                  ]
+                },
+                "width": 100,
+                "height": 201,
+                "service": [
+                  {
+                    "@id": "{{site.url}}{{site.baseurl}}/spritesheet/+tiles",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level0.json"
+                  }
+                ]
+              },
+              "target": "{{site.url}}{{site.baseurl}}/index.json/canvas/2"
+            }
+          ]
+        }
+      ],
+      "label": {
+        "en": [
+          "Spritesheet"
+        ]
+      },
+      "width": 100,
+      "height": 201,
+      "thumbnail": [
+        {
+          "id": "{{site.url}}{{site.baseurl}}/spritesheet/thumb.jpg",
+          "type": "Image",
+          "width": 100,
+          "height": 201
         }
       ]
     }

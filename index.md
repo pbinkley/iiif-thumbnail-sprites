@@ -8,7 +8,7 @@ Is this possible? I'm not clear enough yet on the capabilities of the fragment s
 ## Setup
 
 <figure style="float: right">
-    <img src="{{site.url}}{{site.baseurl}}/spritesheet.jpg"
+    <img src="{{site.url}}{{site.baseurl}}/spritesheet/spritesheet.jpg"
          alt="Spritesheet with two thumbnail images">
     <figcaption>Spritesheet with two thumbnail images</figcaption>
 </figure>
@@ -25,7 +25,7 @@ Sprite coordinates:
 2_thumb,0,101,100,100
 ```
 
-Manifest: [main/manifest.json]({{site.url}}{{site.baseurl}}/manifest.json)
+Manifest: [manifest.json]({{site.url}}{{site.baseurl}}/manifest.json)
 
 View in 
 [Mirador](https://projectmirador.org/embed/?manifest={{site.url}}{{site.baseurl}}/manifest.json)
