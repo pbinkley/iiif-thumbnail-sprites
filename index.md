@@ -31,3 +31,17 @@ View in
 [Mirador](https://projectmirador.org/embed/?manifest={{site.url}}{{site.baseurl}}/manifest.json)
 |
 [Universal Viewer](https://uv-v4.netlify.app/#?manifest={{site.url}}{{site.baseurl}}/manifest.json)
+
+## SVGs?
+
+<figure style="float: right">
+    <img src="{{site.url}}{{site.baseurl}}/2-back/thumb.svg" style="border: 1px solid black"
+         alt="SVG that uses a viewBox">
+    <figcaption>SVG that uses a viewBox</figcaption>
+</figure>
+
+<p>
+<svg viewBox="0 101 100 100" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <image href="{{ site.url }}/{{ site.baseurl }}/spritesheet/+tiles/full/max/0/default.jpg" height="201" width="100"/>
+</svg>
+</p>
